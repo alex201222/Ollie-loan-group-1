@@ -143,7 +143,7 @@
   </div>
       <div v-if="country==null" class="text-center fixed z-30 top-0 left-0 rounded-sm pt-4 min-h-full min-w-full bg-opacity-100 bg-slate-800 h-32">
          <div class="relative md:mt-0 mt-[50%] mx-auto place-content-center gap-y-4 grid">
-             <h1 class=" text-base font-semibold">Choose Your Country</h1>
+             <h1 class=" text-base font-semibold">Select Your Country</h1>
             <button @click="this.country='Tanzania'" class="font-medium text-sm border hover:text-white  hover:border-white rounded-md border-yellow-500 py-1 px-2 text-yellow-400">Tanzania</button>
             <button @click="this.country='Kenya'" class="font-medium text-sm border hover:text-white hover:border-white rounded-md border-red-600 py-1 px-2 text-red-600">Kenya</button>
             <button @click="this.country='Uganda'" class="font-medium text-sm border hover:text-white hover:border-white rounded-md border-green-500 py-1 px-2 text-green-500">Uganda</button>
