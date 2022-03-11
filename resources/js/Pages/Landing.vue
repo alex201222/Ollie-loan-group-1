@@ -153,14 +153,10 @@
       <a href="#top">
           
       </a>
-      <div>
+      <div class="mb-6">
           <hr class="mx-4">
           <Calculator/>
           <hr class="mx-4">
-
-
-
-
       </div>
 
 

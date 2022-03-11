@@ -13,7 +13,7 @@
          <input class="rounded-sm ml-4" v-model="loan.principal" type="number">
      </div>
      <div>
-         <p class="text-white">
+         <p class="text-white text-center text-sm px-3">
               Please use the following loaning calculator to see how much you can borrow. Remember there will be different interest amount for different months. 
          </p>
      </div>
@@ -46,9 +46,13 @@
          <label class="text-white" for="">Total Interests</label>
          <input  class="rounded-sm ml-4" v-model="totalinterest" readonly type="number">
      </div>
-     <p class="text-sm text-white mb-6">
+
+     <p class=" text-center text-sm text-white px-3 mb-6">
          Minimum Loan Period is 3 Months. Maximum Loan Period is 12 Months.
           Monthly Rate is 0.83551557%; APR is 10.5%.
+     </p>
+     <p class="text-xs text-center text-white px-3 mb-6">
+        © Copyright 2022 Ollie Group Loans Calculator
      </p>
 
  </div>

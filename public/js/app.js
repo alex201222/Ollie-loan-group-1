@@ -25706,11 +25706,9 @@ var _hoisted_83 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 /* HOISTED */
 );
 
-var _hoisted_84 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("hr", {
-  "class": "mx-4"
-}, null, -1
-/* HOISTED */
-);
+var _hoisted_84 = {
+  "class": "mb-6"
+};
 
 var _hoisted_85 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("hr", {
   "class": "mx-4"
@@ -25718,12 +25716,18 @@ var _hoisted_85 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 /* HOISTED */
 );
 
-var _hoisted_86 = {
+var _hoisted_86 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("hr", {
+  "class": "mx-4"
+}, null, -1
+/* HOISTED */
+);
+
+var _hoisted_87 = {
   "class": "mt-3 right-3 z-20 fixed top-0 mr-3"
 };
-var _hoisted_87 = ["src"];
 var _hoisted_88 = ["src"];
 var _hoisted_89 = ["src"];
+var _hoisted_90 = ["src"];
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _this = this;
 
@@ -25941,28 +25945,28 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
       return _this.country = 'Uganda';
     }),
     "class": "font-medium text-sm border hover:text-white hover:border-white rounded-md border-green-500 py-1 px-2 text-green-500"
-  }, "Uganda")])])) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _hoisted_83, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [_hoisted_84, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Calculator), _hoisted_85]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Rating)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", _hoisted_86, [$data.country == 'Kenya' ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("img", {
+  }, "Uganda")])])) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _hoisted_83, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_84, [_hoisted_85, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Calculator), _hoisted_86]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Rating)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", _hoisted_87, [$data.country == 'Kenya' ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("img", {
     key: 0,
     src: 'images/kenya.png',
     "class": "h-10 md:hidden",
     alt: ""
   }, null, 8
   /* PROPS */
-  , _hoisted_87)) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), $data.country == 'Uganda' ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("img", {
+  , _hoisted_88)) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), $data.country == 'Uganda' ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("img", {
     key: 1,
     src: 'images/uganda.png',
     "class": "h-10 md:hidden",
     alt: ""
   }, null, 8
   /* PROPS */
-  , _hoisted_88)) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), $data.country == 'Tanzania' ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("img", {
+  , _hoisted_89)) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), $data.country == 'Tanzania' ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("img", {
     key: 2,
     src: 'images/tanzania.png',
     "class": "h-10 md:hidden",
     alt: ""
   }, null, 8
   /* PROPS */
-  , _hoisted_89)) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Top), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Nav), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Whatsapp), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Tawk), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Top), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Contact), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Newsletter), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Footer)], 64
+  , _hoisted_90)) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Top), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Nav), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Whatsapp), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Tawk), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Top), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Contact), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Newsletter), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Footer)], 64
   /* STABLE_FRAGMENT */
   );
 }
@@ -26008,7 +26012,7 @@ var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 );
 
 var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
-  "class": "text-white"
+  "class": "text-white text-center text-sm px-3"
 }, " Please use the following loaning calculator to see how much you can borrow. Remember there will be different interest amount for different months. ")], -1
 /* HOISTED */
 );
@@ -26068,8 +26072,14 @@ var _hoisted_25 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 );
 
 var _hoisted_26 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
-  "class": "text-sm text-white mb-6"
+  "class": "text-center text-sm text-white px-3 mb-6"
 }, " Minimum Loan Period is 3 Months. Maximum Loan Period is 12 Months. Monthly Rate is 0.83551557%; APR is 10.5%. ", -1
+/* HOISTED */
+);
+
+var _hoisted_27 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+  "class": "text-xs text-center text-white px-3 mb-6"
+}, " © Copyright 2022 Ollie Group Loans Calculator ", -1
 /* HOISTED */
 );
 
@@ -26118,7 +26128,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     type: "number"
   }, null, 512
   /* NEED_PATCH */
-  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $options.totalinterest]])]), _hoisted_26]);
+  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $options.totalinterest]])]), _hoisted_26, _hoisted_27]);
 }
 
 /***/ }),
