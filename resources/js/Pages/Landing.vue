@@ -31,7 +31,7 @@
 
 
 <div class="h-[270px] mt-10 w-full md:w-[500px] mx-auto">
-    <p class="text-center text-xl font-medium mb-4">About Ollie Group Africa</p>
+    <p class="text-center text-xl font-medium mb-4">About Ollie Group Credits</p>
     <Slider/>
 </div>
 
