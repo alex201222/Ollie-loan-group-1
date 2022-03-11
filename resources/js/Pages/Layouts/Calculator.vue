@@ -5,7 +5,7 @@
                LOAN CALCULATOR
            </p>
            <p class="text-xl font-medium">
-              (Borrow upto *Sh 500,000)
+              (Borrow upto {{borrow}})
            </p>
        </div>
      <div class="  grid grid-cols-1 mx-auto space-y-3">
@@ -74,6 +74,9 @@ export default {
             }
         }
     },
+    props:{
+        borrow:String,
+    },    
     computed: {
         
          
