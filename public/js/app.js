@@ -25459,7 +25459,7 @@ var _hoisted_16 = {
 
 var _hoisted_17 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
   "class": "text-center text-xl font-medium mb-4"
-}, "About Ollie Group Africa", -1
+}, "About Ollie Group Credits", -1
 /* HOISTED */
 );
 
