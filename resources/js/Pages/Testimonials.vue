@@ -386,7 +386,7 @@
 
 <div class="grid justify-center max-w-[550px] relative bg-white w-auto rounded-md py-4 mx-4 space-y-2">
     <div class="h-[80px] w-[80px] mx-auto rounded-full overflow-hidden">
-        <img :src="'images/tesmony/lady (6).jpg'" alt="" class="h-20">
+        <img :src="''" alt="" class="h-20">
     </div>
     <div class="flex space-x-1 mx-auto">
         <img class="h-4" :src="'images/star.png'" alt="">
