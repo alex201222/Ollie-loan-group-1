@@ -1,9 +1,23 @@
 <template>
-   <div  class="grid grid-cols-1 bg-blue-500 text-left w-[360px] mx-auto space-y-6 text-black">
-     <div class="grid grid-cols-1 mx-auto space-y-3">
-         <label class="text-white" for="">Loan Amount</label>
+   <div  class="grid grid-cols-1 my-6 text-left w-[360px] mx-auto space-y-6 text-black">
+       <div class="grid text-center text-white mb-4">
+           <p class="text-2xl font-bold">
+               LOAN CALCULATOR
+           </p>
+           <p class="text-xl font-medium">
+              (Borrow upto *Sh 500,000)
+           </p>
+       </div>
+     <div class="  grid grid-cols-1 mx-auto space-y-3">
+         <label class="text-white  " for="">Loan Amount</label>
          <input class="rounded-sm ml-4" v-model="loan.principal" type="number">
      </div>
+     <div>
+         <p class="text-white">
+              Please use the following loaning calculator to see how much you can borrow. Remember there will be different interest amount for different months. 
+         </p>
+     </div>
+
      <div class="grid mx-auto  grid-cols-1 space-y-3">
          <label class="text-white" for="">Repayment Period (Months)</label>
          <select class="rounded-sm ml-4" v-model="loan.months" name="" id="">
@@ -34,7 +48,7 @@
      </div>
      <p class="text-sm text-white mb-6">
          Minimum Loan Period is 3 Months. Maximum Loan Period is 12 Months.
-          Monthly Rate is 0.0083551557%; APR is 10.5%.
+          Monthly Rate is 0.83551557%; APR is 10.5%.
      </p>
 
  </div>

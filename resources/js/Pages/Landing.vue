@@ -153,6 +153,20 @@
       <a href="#top">
           
       </a>
+      <div>
+          <hr class="mx-4">
+          <Calculator/>
+          <hr class="mx-4">
+
+
+
+
+      </div>
+
+
+
+
+
 <Rating/>
 
 
@@ -201,6 +215,7 @@ import Newsletter from './Layouts/Newsletter.vue';
 import Footer from './Layouts/Footer.vue';
 import Slider from './Layouts/Slider.vue';
 import Top from './Layouts/Top.vue';
+import Calculator from './Layouts/Calculator.vue';
 export default {
     components:{
           Link,
@@ -213,6 +228,7 @@ export default {
         Slider,
         Whatsapp,
         Top,
+        Calculator,
     },
     data() {
         return {

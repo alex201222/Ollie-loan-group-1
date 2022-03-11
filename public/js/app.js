@@ -20456,6 +20456,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Layouts_Footer_vue__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./Layouts/Footer.vue */ "./resources/js/Pages/Layouts/Footer.vue");
 /* harmony import */ var _Layouts_Slider_vue__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./Layouts/Slider.vue */ "./resources/js/Pages/Layouts/Slider.vue");
 /* harmony import */ var _Layouts_Top_vue__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./Layouts/Top.vue */ "./resources/js/Pages/Layouts/Top.vue");
+/* harmony import */ var _Layouts_Calculator_vue__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./Layouts/Calculator.vue */ "./resources/js/Pages/Layouts/Calculator.vue");
+
 
 
 
@@ -20477,7 +20479,8 @@ __webpack_require__.r(__webpack_exports__);
     Footer: _Layouts_Footer_vue__WEBPACK_IMPORTED_MODULE_7__["default"],
     Slider: _Layouts_Slider_vue__WEBPACK_IMPORTED_MODULE_8__["default"],
     Whatsapp: _Layouts_Whatsapp_vue__WEBPACK_IMPORTED_MODULE_3__["default"],
-    Top: _Layouts_Top_vue__WEBPACK_IMPORTED_MODULE_9__["default"]
+    Top: _Layouts_Top_vue__WEBPACK_IMPORTED_MODULE_9__["default"],
+    Calculator: _Layouts_Calculator_vue__WEBPACK_IMPORTED_MODULE_10__["default"]
   },
   data: function data() {
     return {
@@ -25703,18 +25706,32 @@ var _hoisted_83 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 /* HOISTED */
 );
 
-var _hoisted_84 = {
+var _hoisted_84 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("hr", {
+  "class": "mx-4"
+}, null, -1
+/* HOISTED */
+);
+
+var _hoisted_85 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("hr", {
+  "class": "mx-4"
+}, null, -1
+/* HOISTED */
+);
+
+var _hoisted_86 = {
   "class": "mt-3 right-3 z-20 fixed top-0 mr-3"
 };
-var _hoisted_85 = ["src"];
-var _hoisted_86 = ["src"];
 var _hoisted_87 = ["src"];
+var _hoisted_88 = ["src"];
+var _hoisted_89 = ["src"];
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _this = this;
 
   var _component_Link = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("Link");
 
   var _component_Slider = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("Slider");
+
+  var _component_Calculator = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("Calculator");
 
   var _component_Rating = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("Rating");
 
@@ -25924,28 +25941,28 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
       return _this.country = 'Uganda';
     }),
     "class": "font-medium text-sm border hover:text-white hover:border-white rounded-md border-green-500 py-1 px-2 text-green-500"
-  }, "Uganda")])])) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _hoisted_83, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Rating)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", _hoisted_84, [$data.country == 'Kenya' ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("img", {
+  }, "Uganda")])])) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _hoisted_83, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [_hoisted_84, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Calculator), _hoisted_85]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Rating)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", _hoisted_86, [$data.country == 'Kenya' ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("img", {
     key: 0,
     src: 'images/kenya.png',
     "class": "h-10 md:hidden",
     alt: ""
   }, null, 8
   /* PROPS */
-  , _hoisted_85)) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), $data.country == 'Uganda' ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("img", {
+  , _hoisted_87)) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), $data.country == 'Uganda' ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("img", {
     key: 1,
     src: 'images/uganda.png',
     "class": "h-10 md:hidden",
     alt: ""
   }, null, 8
   /* PROPS */
-  , _hoisted_86)) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), $data.country == 'Tanzania' ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("img", {
+  , _hoisted_88)) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), $data.country == 'Tanzania' ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("img", {
     key: 2,
     src: 'images/tanzania.png',
     "class": "h-10 md:hidden",
     alt: ""
   }, null, 8
   /* PROPS */
-  , _hoisted_87)) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Top), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Nav), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Whatsapp), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Tawk), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Top), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Contact), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Newsletter), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Footer)], 64
+  , _hoisted_89)) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Top), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Nav), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Whatsapp), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Tawk), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Top), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Contact), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Newsletter), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Footer)], 64
   /* STABLE_FRAGMENT */
   );
 }
@@ -25966,48 +25983,54 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
 
 var _hoisted_1 = {
-  "class": "grid grid-cols-1 bg-blue-500 text-left w-[360px] mx-auto space-y-6 text-black"
+  "class": "grid grid-cols-1 my-6 text-left w-[360px] mx-auto space-y-6 text-black"
 };
-var _hoisted_2 = {
+
+var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "grid text-center text-white mb-4"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+  "class": "text-2xl font-bold"
+}, " LOAN CALCULATOR "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+  "class": "text-xl font-medium"
+}, " (Borrow upto *Sh 500,000) ")], -1
+/* HOISTED */
+);
+
+var _hoisted_3 = {
   "class": "grid grid-cols-1 mx-auto space-y-3"
 };
 
-var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("label", {
+var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("label", {
   "class": "text-white",
   "for": ""
 }, "Loan Amount", -1
 /* HOISTED */
 );
 
-var _hoisted_4 = {
+var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+  "class": "text-white"
+}, " Please use the following loaning calculator to see how much you can borrow. Remember there will be different interest amount for different months. ")], -1
+/* HOISTED */
+);
+
+var _hoisted_6 = {
   "class": "grid mx-auto grid-cols-1 space-y-3"
 };
 
-var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("label", {
+var _hoisted_7 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("label", {
   "class": "text-white",
   "for": ""
 }, "Repayment Period (Months)", -1
 /* HOISTED */
 );
 
-var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<option value=\"3\">3 Months</option><option value=\"4\">4 Months</option><option value=\"5\">5 Months</option><option value=\"6\">6 Months</option><option value=\"7\">7 Months</option><option value=\"8\">8 Months</option><option value=\"9\">9 Months</option><option value=\"10\"> 10 Months</option><option value=\"11\"> 11 Months</option><option value=\"12\"> 12 Months</option>", 10);
+var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<option value=\"3\">3 Months</option><option value=\"4\">4 Months</option><option value=\"5\">5 Months</option><option value=\"6\">6 Months</option><option value=\"7\">7 Months</option><option value=\"8\">8 Months</option><option value=\"9\">9 Months</option><option value=\"10\"> 10 Months</option><option value=\"11\"> 11 Months</option><option value=\"12\"> 12 Months</option>", 10);
 
-var _hoisted_16 = [_hoisted_6];
+var _hoisted_18 = [_hoisted_8];
 
-var _hoisted_17 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h1", {
+var _hoisted_19 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h1", {
   "class": "text-white text-center text-lg underline font-semibold"
 }, "Loan Repayment Details", -1
-/* HOISTED */
-);
-
-var _hoisted_18 = {
-  "class": "grid mx-auto grid-cols-1 space-y-3"
-};
-
-var _hoisted_19 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("label", {
-  "class": "text-white",
-  "for": ""
-}, "Monthly Payment", -1
 /* HOISTED */
 );
 
@@ -26018,7 +26041,7 @@ var _hoisted_20 = {
 var _hoisted_21 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("label", {
   "class": "text-white",
   "for": ""
-}, "Total Payment", -1
+}, "Monthly Payment", -1
 /* HOISTED */
 );
 
@@ -26029,18 +26052,29 @@ var _hoisted_22 = {
 var _hoisted_23 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("label", {
   "class": "text-white",
   "for": ""
+}, "Total Payment", -1
+/* HOISTED */
+);
+
+var _hoisted_24 = {
+  "class": "grid mx-auto grid-cols-1 space-y-3"
+};
+
+var _hoisted_25 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("label", {
+  "class": "text-white",
+  "for": ""
 }, "Total Interests", -1
 /* HOISTED */
 );
 
-var _hoisted_24 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+var _hoisted_26 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
   "class": "text-sm text-white mb-6"
-}, " Minimum Loan Period is 3 Months. Maximum Loan Period is 12 Months. Monthly Rate is 0.0083551557%; APR is 10.5%. ", -1
+}, " Minimum Loan Period is 3 Months. Maximum Loan Period is 12 Months. Monthly Rate is 0.83551557%; APR is 10.5%. ", -1
 /* HOISTED */
 );
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [_hoisted_3, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("input", {
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, [_hoisted_2, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [_hoisted_4, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("input", {
     "class": "rounded-sm ml-4",
     "onUpdate:modelValue": _cache[0] || (_cache[0] = function ($event) {
       return $data.loan.principal = $event;
@@ -26048,16 +26082,16 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     type: "number"
   }, null, 512
   /* NEED_PATCH */
-  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.loan.principal]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_4, [_hoisted_5, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("select", {
+  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $data.loan.principal]])]), _hoisted_5, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_6, [_hoisted_7, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("select", {
     "class": "rounded-sm ml-4",
     "onUpdate:modelValue": _cache[1] || (_cache[1] = function ($event) {
       return $data.loan.months = $event;
     }),
     name: "",
     id: ""
-  }, _hoisted_16, 512
+  }, _hoisted_18, 512
   /* NEED_PATCH */
-  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelSelect, $data.loan.months]])]), _hoisted_17, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_18, [_hoisted_19, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("input", {
+  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelSelect, $data.loan.months]])]), _hoisted_19, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_20, [_hoisted_21, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("input", {
     "class": "rounded-sm ml-4",
     "onUpdate:modelValue": _cache[2] || (_cache[2] = function ($event) {
       return $options.monthlypay = $event;
@@ -26066,7 +26100,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     type: "number"
   }, null, 512
   /* NEED_PATCH */
-  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $options.monthlypay]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_20, [_hoisted_21, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("input", {
+  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $options.monthlypay]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_22, [_hoisted_23, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("input", {
     "class": "rounded-sm ml-4",
     "onUpdate:modelValue": _cache[3] || (_cache[3] = function ($event) {
       return $options.totalpay = $event;
@@ -26075,7 +26109,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     type: "number"
   }, null, 512
   /* NEED_PATCH */
-  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $options.totalpay]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_22, [_hoisted_23, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("input", {
+  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $options.totalpay]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_24, [_hoisted_25, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("input", {
     "class": "rounded-sm ml-4",
     "onUpdate:modelValue": _cache[4] || (_cache[4] = function ($event) {
       return $options.totalinterest = $event;
@@ -26084,7 +26118,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     type: "number"
   }, null, 512
   /* NEED_PATCH */
-  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $options.totalinterest]])]), _hoisted_24]);
+  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $options.totalinterest]])]), _hoisted_26]);
 }
 
 /***/ }),
