@@ -14,10 +14,10 @@
          </div>
          <div class="my-4 align-self-center">
              <h1 class="font-medium">
-                 Benson Mutua
+                 Ollie Group Support
              </h1>
              <p class="text-xs">
-                 Online
+                 Answers in a minute
              </p>
          </div>
          <div class="right-4 absolute">
